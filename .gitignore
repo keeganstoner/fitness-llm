@@ -1,0 +1,8 @@
+transcripts/
+keys.py
+cookies.txt
+summaries/*
+*.pyc
+*.cpython
+*/__pycache__/*
+audio/*

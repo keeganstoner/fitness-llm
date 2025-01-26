@@ -28,6 +28,7 @@ jobs:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
         PLAYLIST_ID: ${{ secrets.PLAYLIST_ID }}
+        COOKIES: ${{ secrets.COOKIES }}
       run: |
         python main.py
 

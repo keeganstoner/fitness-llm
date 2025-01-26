@@ -7,6 +7,7 @@ import yt_dlp
 
 DOWNLOADED_VIDEOS_FILE = "downloaded_videos.json"
 AUDIO_FOLDER = "audio"
+COOKIES_FILE = "cookies.txt"
 
 def load_downloaded_videos():
     if os.path.exists(DOWNLOADED_VIDEOS_FILE):

@@ -1,5 +1,5 @@
 transcripts/
-# keys.py
+keys.py
 cookies.txt
 summaries/*
 *.pyc

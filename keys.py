@@ -1,0 +1,4 @@
+YOUTUBE_API_KEY = "<>"
+CHANNEL_ID = '<>'
+OPENAI_KEY = "<>"
+PLAYLIST_ID = "<>"

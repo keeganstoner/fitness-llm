@@ -1,8 +1,8 @@
 name: YouTube Video Summarizer
 
 on:
-  schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+#   schedule:
+#     - cron: '0 0 * * 0' # Runs every Sunday at midnight
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:

@@ -12,9 +12,7 @@ from youtube_downloader import (
 from transcribe import transcribe_audio
 from summarize import summarize_transcript
 
-YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')
-OPENAI_KEY = os.getenv('OPENAI_KEY')
-PLAYLIST_ID = os.getenv('PLAYLIST_ID')
+from keys import YOUTUBE_API_KEY, OPENAI_KEY, PLAYLIST_ID
 
 
 from openai import OpenAI
